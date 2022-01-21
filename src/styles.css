@@ -1,22 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
 
-*{
+/* *{
     margin: 0px;
     padding: 0px;
-    font-family: inherit;
-}
+    font-family: serif;
+} */
 
-
+/* 
 p{
     margin: 0px;
     padding: 0px;
     width: fit-content !important;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+
+*{
+    font-family: sans-serif;
 }
+
+
+
+
 
 *{
     --pink:#f9a8d4;
+    --lime: #bef264;
     
 }
+
+
 
 ::-moz-selection { /* Code for Firefox */
     color: #1f2937;
@@ -27,3 +43,5 @@ p{
     color: #1f2937;
     background: #a7f3d0;
   }
+
+

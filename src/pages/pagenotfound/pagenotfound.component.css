@@ -1,14 +1,9 @@
-.gohome{
-    padding: 15px 40px;
-    border-radius: 50px;
-    font-size: 20px;
-    padding-bottom: 20px;
-    border: solid 1px #cea783;
-    color: #cea783;
-    background-color: rgb(255,255,255,0.3);
-    transition: .1s;
-}
-.gohome:hover{
-    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
-    border: none;
+
+.logo_text{
+    font-size: 80px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    width: fit-content;
+    border-bottom: solid 8px #bef264;
+    margin-top: 10px;
 }
