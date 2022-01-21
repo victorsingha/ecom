@@ -1,7 +1,15 @@
-nav{
-    width: 100%;
-    max-width: 1200px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+header{
+    padding: 10px;
+}
+
+.logo_text{
+    font-size: 60px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.tagline{
+    font-size: 30px;
+    font-weight: bold;
 }
