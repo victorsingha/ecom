@@ -12,10 +12,27 @@ p{
     width: fit-content !important;
 } */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+
+*{
+    font-family: sans-serif;
+}
+
+
+
+
+
 *{
     --pink:#f9a8d4;
+    --lime: #bef264;
     
 }
+
+
 
 ::-moz-selection { /* Code for Firefox */
     color: #1f2937;

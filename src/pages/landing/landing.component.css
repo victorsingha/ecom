@@ -1,29 +1,55 @@
 
 header{
-    padding: 10px;
+ margin: 10px;
 }
 
 .logo_text{
     font-size: 80px;
     font-weight: bolder;
     letter-spacing: 1px;
+    width: fit-content;
+    border-bottom: solid 8px #bef264;
+    margin-top: 10px;
+    font-family: 'Pacifico', cursive, fangsong ;
+    padding-bottom: 5px;
 }
 
 .tagline{
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 50px;
     margin: 0px;
+    line-height: 55px;
+    font-family: 'Pacifico', cursive;
+    color: #444444;
 }
 .big_tagline{
     font-size: 20px;
-}
-
-button{
-    border: none;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    line-height: 30px;
 }
 
 .heroBtn{
+    border: none;
+    cursor: pointer;
     font-size: 30px;
     padding: 15px 20px;
+    letter-spacing: 3px;
     border-radius: 10px;
+    transition: .2s;
+}
+
+.heroBtn:hover{
+    /* box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%); */
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 0px 0px #444444;
+}
+.primary_btn{
+    background-color: #bef264;
+}
+
+
+
+main{
+    margin: 10px;
+    margin-top: 50px;
 }
