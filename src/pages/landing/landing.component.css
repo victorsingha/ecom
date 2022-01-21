@@ -19,13 +19,13 @@ header{
     margin: 0px;
     line-height: 55px;
     font-family: 'Pacifico', cursive;
-    color: #444444;
 }
 .big_tagline{
     font-size: 20px;
     font-family: sans-serif;
     letter-spacing: 1px;
     line-height: 30px;
+    color: #444444;
 }
 
 .heroBtn{
@@ -34,7 +34,6 @@ header{
     font-size: 30px;
     padding: 15px 20px;
     letter-spacing: 3px;
-    border-radius: 10px;
     transition: .2s;
 }
 
@@ -52,4 +51,38 @@ header{
 main{
     margin: 10px;
     margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.model_image{
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+}
+
+footer{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    border-top: solid 5px var(--lime);
+    padding-top: 20px;
+}
+footer nav{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer nav p{
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+    margin: 5px 0px;
+    letter-spacing: 1px;
+}
+footer nav p:hover{
+    color: gray;
 }
