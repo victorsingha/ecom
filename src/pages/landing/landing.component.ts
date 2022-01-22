@@ -23,9 +23,9 @@ export class LandingComponent implements OnInit {
         imageurl:"assets/images/victor.jpg"
       },
       {
-        name: "Abhisekh",
+        name: "Abhishek Patnaik",
         position: "Product Designer",
-        imageurl:"assets/images/pankaj.jpg"
+        imageurl:"assets/images/abhishek.jpg"
       },
       // {
       //   name: "Himanshu Nete",
