@@ -8,7 +8,7 @@
       <button class="heroBtn primary_btn">
         products
       </button>
-      <button class="heroBtn secondary_btn">
+      <button class="heroBtn secondary_btn" (click)="aboutus()">
         about us
       </button>      
     </div>
@@ -16,8 +16,8 @@
 
 
 <main>
-<img src="../../assets/images/model2.jpg" class="model_image" alt="model1">
-<img src="../../assets/images/model1.jpg" class="model_image" alt="model2">
+<img src="assets/images/model2.jpg" class="model_image" alt="model1">
+<img src="assets/images/model1.jpg" class="model_image" alt="model2">
 </main>
 
 <section style="margin: 10px;margin-top: 40px;">
@@ -26,9 +26,24 @@
 
 
 <main>
-  <img src="../../assets/images/model3.jpg" class="model_image" alt="model1">
-  <img src="../../assets/images/model4.jpg" class="model_image" alt="model2">
+  <img src="assets/images/model3.jpg" class="model_image" alt="model1">
+  <img src="assets/images/model4.jpg" class="model_image" alt="model2">
   </main>
+
+
+  <p class="our_team" id="aboutus">Our Team</p>
+
+  <div class="row" style="margin: 10px;">
+    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 card2" *ngFor="let obj of teams">
+      <img src="{{obj.imageurl}}" class="profile_image" alt="model1">
+      <p class="name">{{obj.name}}</p>
+      <p class="position">{{obj.position}}</p>
+    </div>
+  </div>
+
+
+
+
 
 
 
