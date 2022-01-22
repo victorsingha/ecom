@@ -7,3 +7,15 @@
     border-bottom: solid 8px #bef264;
     margin-top: 10px;
 }
+
+button{
+    border: none;
+    padding: 15px 20px;
+    background-color: var(--lime);
+    font-size: 20px;
+}
+
+.pagenotfound{
+    font-size: 20px;
+    padding: 20px;
+}
